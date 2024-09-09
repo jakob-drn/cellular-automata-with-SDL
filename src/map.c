@@ -70,7 +70,7 @@ void map_draw(struct map* m, SDL_Renderer* renderer)
 					SDL_SetRenderDrawColor(renderer,0xFF,0xFF,0xFF,0xFF);
 					break;
 				case 2:
-					SDL_SetRenderDrawColor(renderer,0x00,0xFF,0xFF,0xFF);
+					SDL_SetRenderDrawColor(renderer,0x00,0xFF,0x0F,0xFF);
 					break;
 				case 3:
 					SDL_SetRenderDrawColor(renderer,0xFF,0x00,0xFF,0xFF);
